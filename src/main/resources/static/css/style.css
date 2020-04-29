@@ -1,11 +1,12 @@
 * {
 	margin: 0;
 	padding: 0;
-}
+  }
 
 .wrapper {
 	width: 1200px;
 	margin: auto;
+	
 }
 
 .nav {
@@ -31,3 +32,90 @@
 		grid-template-columns: 1fr;
 	}
 }
+
+
+.profile_content{
+	width:480px;
+	height:200px;
+	border:1px solid black;
+	margin-left:20px;
+	margin-top:20px;
+	margin-right:20px;
+	
+}
+
+.profile_content p, h3{
+	margin-top:10px;
+	margin-left:20px;
+	width:280px;
+	
+}
+
+
+.profile {
+	margin-left:190px;
+	margin-top:20px;
+	width: 120px;
+	height:120px;
+	border-radius:20%;
+	border:1px solid black;
+}
+
+.missions{
+	width:480px;
+	height:600px;
+	margin-top:15px;
+	margin-left:20px;
+	border:1px solid black;]
+}
+
+li{
+	margin-left:20px;
+}
+
+.main {
+	display:inline-block;
+	margin-top:20px;
+	
+
+}
+.col1 {
+ 	display:inline-block;
+	padding-bottom:20px;
+	margin-right:20px;
+
+}
+
+.col2 {
+	vertical-align:top;
+	display:inline-block;
+	width:480px;
+
+}
+
+
+.connection{
+	padding-top:10px;
+	border:1px solid black;
+	margin-bottom:10px;
+	height:260px;
+}
+
+.connection h3 {
+	width:200px;
+}
+
+.feed{
+	border:1px solid black;
+	height:690px;
+}
+
+
+.feed h2, h3, p, a {
+	margin-top:10px;
+	margin-left:20px;
+}
+
+
+
+
