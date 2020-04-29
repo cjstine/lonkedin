@@ -1,7 +1,16 @@
+
+/* DO NOT TOUCH THIS STYLESHEET. CREATE A NEW STYLESHEET SPECIFICALLY FOR YOUR JSP PAGE AND ADD A LINK TO IT IN THE HEAD */
+
+/* NORMALIZATION */
+
 * {
 	margin: 0;
 	padding: 0;
   }
+
+/* DO NOT TOUCH THIS STYLESHEET. CREATE A NEW STYLESHEET SPECIFICALLY FOR YOUR JSP PAGE AND ADD A LINK TO IT IN THE HEAD */
+
+/* WRAPPER */
 
 .wrapper {
 	width: 1200px;
@@ -9,17 +18,70 @@
 	
 }
 
+/* DO NOT TOUCH THIS STYLESHEET. CREATE A NEW STYLESHEET SPECIFICALLY FOR YOUR JSP PAGE AND ADD A LINK TO IT IN THE HEAD */
+
+/* NAV */
+
 .nav {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	padding: 5px;
+	margin: 0 0 10px 0;
+	background-color: green;
 }
+	.nav2 {
+		align-self: center;
+		justify-self: right;
+	}
 
-.main {
+/* DO NOT TOUCH THIS STYLESHEET. CREATE A NEW STYLESHEET SPECIFICALLY FOR YOUR JSP PAGE AND ADD A LINK TO IT IN THE HEAD */
+
+/* DASH */
+
+.dash {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 20px;
+	padding: 20px;
+}
+	.dash .col1 {
+		display: grid;
+		row-gap: 20px;
+	}
+	.dash .col2 {
+		display: grid;
+		row-gap: 20px;
+	}
+
+/* JOBS */
+
+.jobForms {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
 
+/* CONNECTIONS */
 
+.connections {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 20px;
+	padding: 20px;
+}
+	.connectionscol1 {
+		display: grid;
+		row-gap: 20px;
+	}
+	.connectionscol2 {
+		display: grid;
+		row-gap: 20px;
+	}
+
+
+
+
+
+/* MEDIA QUERIES */
 
 @media only screen and (max-width:1200px) {
 	.wrapper {
@@ -27,95 +89,11 @@
 	}
 }
 
-@media only screen and (max-width:600px) {
-	.main {
+@media only screen and (max-width:768px) {
+	.dash {
+		grid-template-columns: 1fr;
+	}
+	.jobForms {
 		grid-template-columns: 1fr;
 	}
 }
-
-
-.profile_content{
-	width:480px;
-	height:200px;
-	border:1px solid black;
-	margin-left:20px;
-	margin-top:20px;
-	margin-right:20px;
-	
-}
-
-.profile_content p, h3{
-	margin-top:10px;
-	margin-left:20px;
-	width:280px;
-	
-}
-
-
-.profile {
-	margin-left:190px;
-	margin-top:20px;
-	width: 120px;
-	height:120px;
-	border-radius:20%;
-	border:1px solid black;
-}
-
-.missions{
-	width:480px;
-	height:600px;
-	margin-top:15px;
-	margin-left:20px;
-	border:1px solid black;]
-}
-
-li{
-	margin-left:20px;
-}
-
-.main {
-	display:inline-block;
-	margin-top:20px;
-	
-
-}
-.col1 {
- 	display:inline-block;
-	padding-bottom:20px;
-	margin-right:20px;
-
-}
-
-.col2 {
-	vertical-align:top;
-	display:inline-block;
-	width:480px;
-
-}
-
-
-.connection{
-	padding-top:10px;
-	border:1px solid black;
-	margin-bottom:10px;
-	height:260px;
-}
-
-.connection h3 {
-	width:200px;
-}
-
-.feed{
-	border:1px solid black;
-	height:690px;
-}
-
-
-.feed h2, h3, p, a {
-	margin-top:10px;
-	margin-left:20px;
-}
-
-
-
-
